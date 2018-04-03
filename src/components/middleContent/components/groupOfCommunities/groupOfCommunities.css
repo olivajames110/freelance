@@ -1,28 +1,90 @@
 .group-of-communities-container {
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-auto-rows: 285px;
+
+}
+
+
+
+.community-group-image  {
  display: flex;
- flex-wrap: wrap;
-
-}
-
-.group-of-communities-column {
- flex: 25%;
- max-width: 25%;
-
-}
-
-.group-of-communities-column img {
  max-width: 100%;
  min-height: 100%;
  position: relative;
+ width: 100%;
+
+}
+
+.community-group-image-title {
+ color: white;
+ text-align: center;
+ margin-top: 35%;
+}
+
+.tint {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.455);
+ transition-duration: .3s;
+}
+
+.tint:hover {
+ background: rgba(0, 0, 0, 0.655);
  
 }
 
-.group-of-communities-title {
-
- color: blue;
- font-size: 20px;
+.group-image-camera {
+background: url("https://images.pexels.com/photos/1838/man-person-camera-taking-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+background-position: center;
+background-size: cover;
 }
 
+.group-image-sound {
+ background: url("https://movingimageeducation.org/sites/default/files/positioning-the-boom.jpg");
+ background-position: center;
+ background-size: cover;
+ }
+
+.group-image-music {
+background: url("https://techcrunch.com/wp-content/uploads/2017/07/l1040208.jpg?w=730&crop=1");
+background-position: center;
+background-size: cover;
+}
+
+ .group-image-direct {
+ background: url("https://www.nyfa.edu/student-resources/wp-content/uploads/2014/11/Directors-Chair-616x313.jpg");
+ background-position: center;
+ background-size: cover;
+ }
+
+.group-image-pa {
+ background: url("https://www.nycfilmcrew.com/wp-content/uploads/film-crew-jobs-clapboard-min.jpg");
+ background-position: center;
+ background-size: cover;
+}
+
+.group-image-film {
+ background: url("http://blog.livebooks.com/wp-content/uploads/2010/01/IMG_0184-copy.JPG");
+ background-position: center;
+ background-size: cover;
+ }
+
+ .group-image-lighting {
+  background: url("https://d1yf68t7nbxlyn.cloudfront.net/image/id/24898849311537045");
+  background-position: center;
+  background-size: cover;
+  }
+
+.group-image-misc {
+   background: url("http://img-aws.ehowcdn.com/340x221p/photos.demandstudios.com/getty/article/77/88/75675995.jpg");
+   background-position: center;
+   background-size: cover;
+   }
+ 
 
 /* .community-group-1 { */
  /* background-image: url("");
@@ -30,3 +92,33 @@
  background-size: cover;
  width: 100%;
 } */
+
+
+/* <div className="community-group-image tint">
+     <img src="" />
+     </div>
+
+    <div className="community-group-image">
+     <img src="" />
+    </div>
+
+    <div className="community-group-image">
+     <img src="" />
+    </div>
+
+    <div className="community-group-image">
+    <img src="https://acreativejob.files.wordpress.com/2010/07/film_shoot.jpg" />
+   </div>
+
+   <div className="community-group-image">
+    <img src="https://images.pexels.com/photos/1838/man-person-camera-taking-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+    </div>
+
+   <div className="community-group-image">
+    <img src="https://techcrunch.com/wp-content/uploads/2017/07/l1040208.jpg?w=730&crop=1" />
+   </div>
+
+   <div className="community-group-image">
+    <img src="https://images.pexels.com/photos/1838/man-person-camera-taking-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+   </div>
+      */

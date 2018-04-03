@@ -6,33 +6,56 @@ const GroupOfCommunities = () => {
  return (
   <div>
    <div className="group-of-communities-container">
-    <div className="group-of-communities-column">
-     <img src="https://images.pexels.com/photos/1838/man-person-camera-taking-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-     <div className="group-of-communities-title">Test</div>
-    </div>
-    <div className="group-of-communities-column">
-     <img src="https://movingimageeducation.org/sites/default/files/positioning-the-boom.jpg" />
- 
+
+    <div className="community-group-image group-image-camera">
+     <div className="tint">
+      <h3 className="community-group-image-title ">CAMERAS</h3>
      </div>
-    <div className="group-of-communities-column">
-     <img src="https://techcrunch.com/wp-content/uploads/2017/07/l1040208.jpg?w=730&crop=1" />
     </div>
-    <div className="group-of-communities-column">
-     <img src="https://www.nycfilmcrew.com/wp-content/uploads/film-crew-jobs-clapboard-min.jpg" />
+
+    <div className="community-group-image group-image-sound">
+     <div className="tint">
+      <h3 className="community-group-image-title ">SOUND</h3>
+     </div>
     </div>
-    <div className="group-of-communities-column">
-    <img src="https://acreativejob.files.wordpress.com/2010/07/film_shoot.jpg" />
-   </div>
-   <div className="group-of-communities-column">
-    <img src="https://images.pexels.com/photos/1838/man-person-camera-taking-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+
+    <div className="community-group-image group-image-music">
+     <div className="tint">
+      <h3 className="community-group-image-title ">MUSIC</h3>
+     </div>
     </div>
-   <div className="group-of-communities-column">
-    <img src="https://techcrunch.com/wp-content/uploads/2017/07/l1040208.jpg?w=730&crop=1" />
-   </div>
-   <div className="group-of-communities-column">
-    <img src="https://images.pexels.com/photos/1838/man-person-camera-taking-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-   </div>
-     
+
+    <div className="community-group-image group-image-direct">
+     <div className="tint">
+      <h3 className="community-group-image-title ">DIRECTING</h3>
+     </div>
+    </div>
+
+    <div className="community-group-image group-image-pa">
+     <div className="tint">
+      <h3 className="community-group-image-title ">PA</h3>
+     </div>
+    </div>
+
+    <div className="community-group-image group-image-film">
+     <div className="tint">
+      <h3 className="community-group-image-title ">FILM</h3>
+     </div>
+    </div>
+
+    <div className="community-group-image group-image-lighting">
+     <div className="tint">
+      <h3 className="community-group-image-title ">LIGHTING</h3>
+     </div>
+    </div>
+
+    <div className="community-group-image group-image-misc">
+     <div className="tint">
+      <h3 className="community-group-image-title ">MISC</h3>
+     </div>
+    </div>
+
+    
 
    </div>
   </div>

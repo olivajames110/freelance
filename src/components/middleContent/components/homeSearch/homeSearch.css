@@ -31,4 +31,8 @@
  width: 60%;
 }
 
+.home-search-input:focus {
+ outline: none;
+}
+
 
