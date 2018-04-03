@@ -1,0 +1,43 @@
+.header {
+ background-color: #233239;
+ padding-top: 5px;
+}
+
+/* .logo {
+ /* color: white;
+ background-image: url("https://digitalmarketing.blob.core.windows.net/9096/images/items/image483475.png");
+ background-position: center
+ width: 75px;
+ height: 75px; */
+
+
+/* .header-nav-flex {
+ display: flex;
+} */
+
+.header-nav {
+ display: flex;
+ max-width: 1000px;
+ margin: 0 auto;
+ justify-content: space-between;
+ 
+}
+
+.nav-search-input {
+ width: 100%;
+ padding: 10px;
+ border: none;
+ border-radius: 30px;
+}
+
+.profile {
+ color: white;
+ font-size: 42px; 
+ text-align: center;
+ padding-top: 5px;
+}
+
+.user-login-name {
+ font-size: 10px;
+
+}

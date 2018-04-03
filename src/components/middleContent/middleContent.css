@@ -1,0 +1,23 @@
+.middle-content-body {
+ position: relative;
+ /* padding: 50px; */
+ width: 100%
+ 
+}
+
+/* .middle-content-card {
+ background-color: white;
+ border-radius: 4px;
+ border: 1px solid #dadada;
+ padding: 50px 100px;
+ position: relative;
+ max-width: 500px;
+ margin-bottom: 30px;
+} */
+
+.group-of-communities {
+ font-family: 'Josefin Sans', sans-serif;
+ color: rgb(31, 33, 33);
+ text-align: center;
+ padding: 45px;
+}

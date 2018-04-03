@@ -1,0 +1,32 @@
+.group-of-communities-container {
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.group-of-communities-column {
+ flex: 25%;
+ max-width: 25%;
+
+}
+
+.group-of-communities-column img {
+ max-width: 100%;
+ min-height: 100%;
+ position: relative;
+ 
+}
+
+.group-of-communities-title {
+
+ color: blue;
+ font-size: 20px;
+}
+
+
+/* .community-group-1 { */
+ /* background-image: url("");
+ background-position: center;
+ background-size: cover;
+ width: 100%;
+} */
